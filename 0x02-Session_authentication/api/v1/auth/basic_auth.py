@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Definition of class BasicAuth
@@ -94,3 +95,4 @@ class BasicAuth(Auth):
                     if email is not None:
                         return self.user_object_from_credentials(email, pword)
         return
+
