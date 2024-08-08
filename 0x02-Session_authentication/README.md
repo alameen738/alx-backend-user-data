@@ -1,34 +1,31 @@
-0x01. Basic authentication
+0x02. Session authentication
 Back-end
 Authentification
  Weight: 1
- Project will start Aug 5, 2024 6:00 AM, must end by Aug 7, 2024 6:00 AM
- Checker was released at Aug 5, 2024 6:00 PM
+ Project will start Aug 7, 2024 6:00 AM, must end by Aug 9, 2024 6:00 AM
+ Checker was released at Aug 7, 2024 6:00 PM
  An auto review will be launched at the deadline
 Background Context
-In this project, you will learn what the authentication process means and implement a Basic Authentication on a simple API.
+In this project, you will implement a Session Authentication. You are not allowed to install any other module.
 
-In the industry, you should not implement your own Basic authentication system and use a module or framework that doing it for you (like in Python-Flask: Flask-HTTPAuth). Here, for the learning purpose, we will walk through each step of this mechanism to understand it by doing.
-
-
+In the industry, you should not implement your own Session authentication system and use a module or framework that doing it for you (like in Python-Flask: Flask-HTTPAuth). Here, for the learning purpose, we will walk through each step of this mechanism to understand it by doing.
 
 Resources
 Read or watch:
 
-REST API Authentication Mechanisms
-Base64 in Python
-HTTP header Authorization
+REST API Authentication Mechanisms - Only the session auth part
+HTTP Cookie
 Flask
-Base64 - concept
+Flask Cookie
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 General
 What authentication means
-What Base64 is
-How to encode a string in Base64
-What Basic authentication means
-How to send the Authorization header
+What session authentication means
+What Cookies are
+How to send Cookies
+How to parse Cookies
 Requirements
 Python Scripts
 All your files will be interpreted/compiled on Ubuntu 18.04 LTS using python3 (version 3.7)
